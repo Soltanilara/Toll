@@ -26,7 +26,7 @@ If you find this repository useful, please cite our paper:
   pages={},
   doi={}}
 ```
-## Evironment setup
+## Evironment Setup
 
 ### Create and activate virtual environment
 ```bash
