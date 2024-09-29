@@ -53,7 +53,7 @@ def load_cifar(dataset, dataset_path):
                    (-15.603507135507172, 15.2464923804279),
                    (-6.132882973622672, 8.046098172351265)]
 
-        # Load data and apply global contrast optimization using the L1-norm
+        # Load data and apply global contrast normalization using the L1-norm
         train_img = np.empty((0, 3072))
         train_labels = []
         for i in range(1, 6):
@@ -87,7 +87,7 @@ def load_cifar(dataset, dataset_path):
                    (-7.833277239891915, 10.35800168761534), (-6.648282524262063, 11.645584049487276),
                    (-7.180139184279749, 11.97570811709053), (-9.808531530992028, 10.469580417662428)]
 
-        # Load data and apply global contrast optimization using the L1-norm
+        # Load data and apply global contrast normalization using the L1-norm
         trainData = unpickle(f'{dataset_path}/train')
         testData = unpickle(f'{dataset_path}/test')
 
