@@ -6,9 +6,10 @@ This code provides a PyTorch implementation for **Toll** (**T**argeted c**oll**a
 
 ![Model](img/Model.png)
 
-Toll is a principled and strikingly straightforward method that markedly improves the anomaly detection performance of autoencoders.
-Unlike many alternative approaches that rely on additional neural network components, involved computations, and cumbersome training, Toll improves the performance simply by complementing the reconstruction loss with a computationally light term that regulates the norm of representations in the latent space.
-The simplicity of our approach minimizes the requirement for hyperparameter tuning and customization for new applications which, paired with its relaxed data modality requirements, enhances the potential for successful adoption across a broad range of applications.
+Toll is a principled and strikingly straightforward method that improves the anomaly detection performance of autoencoders.
+Rather than relying on additional neural network components, involved computations, and cumbersome training which are common among alternative approaches,
+Toll improves the performance simply by complementing the reconstruction loss with a computationally light term that regulates the norm of representations in the latent space.
+The simplicity of the approach minimizes the requirement for hyperparameter tuning and customization for new applications which, paired with its relaxed data modality requirements, increases the potential for successful adoption across a broad range of applications.
 Notably, implementing the targeted collapse in the context of state-of-the-art methods, even ones not based on autoencoders, can further improve their performance (see paper for demonstrations).
 
 ## Citation
